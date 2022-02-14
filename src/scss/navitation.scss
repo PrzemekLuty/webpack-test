@@ -1,0 +1,16 @@
+.navigation {
+    padding: 16px;
+    display: none;
+    &--open {
+      display: block;
+    }
+    &__link {
+      color: rgb(255, 255, 255);
+      display: block;
+      margin: 0 0 16px;
+    }
+    &__link--homepage {
+      background: rgb(90, 80, 80);
+      color: rgb(255, 255, 255);
+    }
+  }

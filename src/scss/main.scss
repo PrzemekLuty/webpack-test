@@ -1,13 +1,124 @@
 @import "~normalize.css";
-
 @import "_variables";
-@import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+@import "../scss/navitation.scss";
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #865353;
+    background-image: linear-gradient(135deg, #7c3b3b 0%, #8BC6EC 50%, #9599E2 100%);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  section {
+    background-color: #afdd42;
+  }
+  
+  .main-heading {
+    color: rgb(0, 0, 0);
+  }
+  
+  .about__heading {
+    color: rgb(6, 6, 194);
+  }
+  
+  p {
+    color: #232927;
+  }
+  
+  #top {
+    background: #4f6d7a;
+  }
+  
+  a {
+    color: orange;
+  }
+  
+  .header {
+    background: #9599E2;
+    font-weight: 700;
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  .experience {
+      color: black;
+      padding: 15px;
+      background: #817473;
+      &__work {
+        border-style:groove;
+        margin-bottom: 10px;
+    }
+  }
+
+  
+  .main {
+  max-width: 1000px;
+  margin: 60px auto 0;
+  }
+  
+  .footer {
+   color:aliceblue;
+  }
+  
+  .footer-link {
+    color:yellow
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .about_picture {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  :root {
+    --background-color: #fefefe;
+    --test-color: #333333;
+  } 
+
+  body {
+    background: var(--background-color);
+    color: var(--text-color);
+    }
+
+  @media (min-width: 768px) {
+  
+    .hamburger {
+      display: none;
+    }
+  
+    .navigation {
+      background: #0c171b;
+      padding: 16px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-around;
+      height: 50px;
+      align-items: center;
+    }
+  }
+
