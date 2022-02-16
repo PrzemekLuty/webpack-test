@@ -1,18 +1,12 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# Homepage Przemka
 
-Simple toolkit for your static websites development.
+Moja strona domowa
 
-## How to use it?
+## O czym jest ta strona?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Strona służy rozwijaniu i testowaniu mojej widzy w zakresie frontendu. 
 
-## Available scripts
 
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
 
